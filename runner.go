@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package regexp2
 
 import (
@@ -10,7 +15,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/dlclark/regexp2/syntax"
+	"github.com/sniperkit/snk.fork.dlclark-regexp2/syntax"
 )
 
 type runner struct {

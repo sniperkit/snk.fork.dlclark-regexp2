@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package regexp2
 
 import (
 	"bytes"
 	"errors"
 
-	"github.com/dlclark/regexp2/syntax"
+	"github.com/sniperkit/snk.fork.dlclark-regexp2/syntax"
 )
 
 const (

@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package regexp2
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestIgnoreCase_Simple(t *testing.T) {
 	r := MustCompile("aaamatch thisbbb", IgnoreCase)

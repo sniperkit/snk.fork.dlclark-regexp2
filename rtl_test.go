@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package regexp2
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestRightToLeft_Basic(t *testing.T) {
 	re := MustCompile(`foo\d+`, RightToLeft)

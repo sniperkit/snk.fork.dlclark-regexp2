@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package regexp2
 
 import (
@@ -6,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dlclark/regexp2/syntax"
+	"github.com/sniperkit/snk.fork.dlclark-regexp2/syntax"
 )
 
 func TestBacktrack_CatastrophicTimeout(t *testing.T) {

@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Package regexp2 is a regexp package that has an interface similar to Go's framework regexp engine but uses a
 more feature full regex engine behind the scenes.
 
@@ -15,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dlclark/regexp2/syntax"
+	"github.com/sniperkit/snk.fork.dlclark-regexp2/syntax"
 )
 
 // Default timeout used when running regexp matches -- "forever"
